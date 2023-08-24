@@ -1,0 +1,87 @@
+/* Write your code here. */
+
+.letters-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+}
+
+.letters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 992px) {
+  .letters {
+    flex-direction: row;
+  }
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .calculator {
+    align-items: flex-start;
+    order: 0;
+  }
+  .letter-count {
+    color: #ffffff;
+  }
+}
+.main-heading {
+  text-align: center;
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 46px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 46px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main-heading {
+    text-align: start;
+    font-size: 46px;
+    color: #ffffff;
+    font-family: 'Roboto';
+  }
+}
+.label {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: bold;
+}
+.text-input {
+  color: #ffffff;
+  background-color: transparent;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1p solid #e4e7eb;
+  border-radius: 4px;
+  margin-top: 8px;
+  padding-top: 8px;
+}
